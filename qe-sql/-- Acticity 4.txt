@@ -1,0 +1,10 @@
+-- Acticity 4
+
+
+ALTER TABLE SALESMAN 
+ADD grade int;
+
+UPDATE SALESMAN
+SET grade = 100;
+
+SELECT * FROM SALESMAN;

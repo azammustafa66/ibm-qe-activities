@@ -1,0 +1,46 @@
+-- Activity 9  pre-requisite
+
+-- Create the customers table
+create table customers (
+    customer_id int primary key, customer_name varchar(32),
+    city varchar(20), grade int, salesman_id int);
+
+-- Insert values into it
+INSERT ALL
+    INTO customers VALUES (3002, 'Nick Rimando', 'New York', 100, 5001)
+    INTO customers VALUES (3007, 'Brad Davis', 'New York', 200, 5001)
+    INTO customers VALUES (3005, 'Graham Zusi', 'California', 200, 5002)
+    INTO customers VALUES (3008, 'Julian Green', 'London', 300, 5002)
+    INTO customers VALUES (3004, 'Fabian Johnson', 'Paris', 300, 5006)
+    INTO customers VALUES (3009, 'Geoff Cameron', 'Berlin', 100, 5003)
+    INTO customers VALUES (3003, 'Jozy Altidor', 'Moscow', 200, 5007)
+    INTO customers VALUES (3001, 'Brad Guzan', 'London', 300, 5005)
+SELECT 1 FROM DUAL;
+
+
+-- Acticity 9
+
+Select c.customer_name, s.SALESMAN_NAME
+from CUSTOMERS c 
+JOIN SALESMAN s
+ON c.SALESMAN_ID = s.salesman_id;
+
+Select c.customer_name, s.SALESMAN_NAME
+from CUSTOMERS c 
+JOIN SALESMAN s
+ON c.SALESMAN_ID = s.salesman_id
+where s.grade < 300
+Order BY s.grade;
+
+Select c.customer_name
+from CUSTOMERS c 
+JOIN SALESMAN s
+ON c.SALESMAN_ID = s.salesman_id
+where s.comission >12;
+
+Select o.order_no, o.order_date,o.purchase_amount,c.customer_name, s.SALESMAN_NAME,s.COMISSION 
+from ORDERS o 
+JOIN CUSTOMERS c
+ON o.customer_id = c.customer_id
+JOIN salesman s
+ON o.salesman_id = s.salesman_id;

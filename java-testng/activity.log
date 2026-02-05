@@ -1,0 +1,23 @@
+2026-02-04 09:57:14` [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2026-02-04 09:57:38` [main] INFO  TestActivity9 - Navigating to the url provided
+2026-02-04 09:57:41` [main] INFO  TestActivity9 - Clicking the button
+2026-02-04 09:57:41` [main] INFO  TestActivity9 - Dismissing the alert
+2026-02-04 10:04:35` [main] INFO  TestActivity9 - Navigating to the url provided
+2026-02-04 10:04:36` [main] INFO  TestActivity9 - Clicking the button
+2026-02-04 10:04:36` [main] INFO  TestActivity9 - Matching the alert text with expectation
+2026-02-04 10:04:36` [main] INFO  TestActivity9 - Dismissing the alert
+2026-02-04 10:31:50` [main] INFO  TestActivity9 - Navigating to the url provided
+2026-02-04 10:31:50` [main] INFO  TestActivity9 - Clicking the button
+2026-02-04 10:31:50` [main] INFO  TestActivity9 - Matching the alert text with expectation
+2026-02-04 10:31:50` [main] INFO  TestActivity9 - Dismissing the alert
+2026-02-04 11:47:42` [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2026-02-04 11:48:53` [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2026-02-04 11:48:56` [main] INFO  TestActivity10 - Testing -> Name: Satvik Shah | Email: satshah@example.com
+2026-02-04 11:49:08` [main] INFO  TestActivity10 - Testing -> Name: Avinash Kati | Email: avikati@example.com
+2026-02-04 11:49:19` [main] INFO  TestActivity10 - Testing -> Name: Lahri Rath | Email: la.ra@example.com

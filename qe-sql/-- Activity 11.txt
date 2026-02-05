@@ -1,0 +1,19 @@
+-- Activity 11
+
+
+SELECT s.salesman_name AS name, COUNT(o.order_no) AS total_orders
+FROM orders o
+JOIN salesman s
+ON o.salesman_id = s.salesman_id
+GROUP BY s.salesman_name
+HAVING COUNT(o.order_no) > 1
+
+UNION
+
+SELECT c.customer_name AS name, COUNT(o.order_no) AS total_orders
+FROM orders o
+JOIN customers c
+ON o.customer_id = c.customer_id
+GROUP BY c.customer_name
+HAVING COUNT(o.order_no) > 1
+ORDER BY name;

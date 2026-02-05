@@ -1,0 +1,10 @@
+import pandas as pd 
+
+data = {
+    "X": [1,2,3,4,5],
+    "y": [5,4,3,2,1], 
+    "Z": [2,4,6,8,10]
+} 
+
+df = pd.DataFrame(data)
+print(df)

@@ -1,0 +1,14 @@
+-- Activity 5
+
+
+UPDATE SALESMAN 
+SET grade = 200
+WHERE SALESMAN_CITY = 'Rome';
+
+UPDATE SALESMAN 
+SET grade = 300
+WHERE SALESMAN_NAME = 'James Hogg';
+
+Update SALESMAN
+SET SALESMAN_NAME ='Pierre'
+Where SALESMAN_NAME ='McLyon';

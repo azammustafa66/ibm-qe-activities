@@ -1,0 +1,9 @@
+testRunner\Activity2Test.class
+testDefinitions\Activity2StepDefinitions.class
+testRunner\Activity1Test.class
+testRunner\Activity4Test.class
+testDefinitions\Fixtures.class
+testDefinitions\Activity1StepDefinitions.class
+testRunner\Activity3Test.class
+testDefinitions\Activity3StepDefinitions.class
+testDefinitions\Base.class

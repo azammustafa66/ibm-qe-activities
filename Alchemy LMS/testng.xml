@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/AzamMustufaDidagur/Desktop/activities/Alchemy LMS/testng.xml">
+        <classes>
+            <class name="TestActivity1"/>
+            <class name="TestActivity2"/>
+            <class name="TestActivity3"/>
+            <class name="TestActivity4"/>
+            <class name="TestActivity5"/>
+            <class name="TestActivity6"/>
+            <class name="TestActivity7" />
+        </classes>
+    </test>
+</suite>
